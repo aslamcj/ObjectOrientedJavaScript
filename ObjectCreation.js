@@ -25,8 +25,8 @@ var bicycle3 = new Bicycle(10,20,30);
 
 function Bicycle(speed, cadence, gear) {
   //var this;  no need to create this as it JS will create automatically
-  newBicycle.speed = speed;
-  newBicycle.cadence = cadence;
-  newBicycle.gear = gear;
+  this.speed = speed;
+  this.cadence = cadence;
+  this.gear = gear;
   // return this; no need to return in case of function custructor
 }
